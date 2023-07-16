@@ -412,6 +412,16 @@ class ObjectIdentifier {
                 2: 'rsaSignatureWithripemd160',
                 3: 'rsaSignatureWithripemd128',
                 4: 'rsaSignatureWithripemd256'
+              },
+              2: {
+                null: 'ecSign',
+                8: {
+                  null: 'ecStdCurvesAndGeneration',
+                  1: {
+                    null: 'ellipticCurve',
+                    1: {null: 'versionOne', 7: 'brainpoolP256r1'}
+                  }
+                }
               }
             }
           }
